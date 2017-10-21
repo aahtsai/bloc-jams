@@ -1,0 +1,92 @@
+// Example Album
+var albumPicasso = {
+    title: 'The Colors',
+    artist: 'Pablo Picasso',
+    label: 'Cubism',
+    year: '1881',
+    albumArtUrl: 'assets/images/album_covers/01.png',
+    songs: [
+        {
+            title: 'Blue',
+            duration: '4:26'
+        },
+        {
+            title: 'Green',
+            duration: '3:14'
+        },
+        {
+            title: 'Red',
+            duration: '5:01'
+        },
+        {
+            title: 'Pink',
+            duration: '3:21'
+        },
+        {
+            title: 'Magenta',
+            duration: '2:15'
+        }
+     ]
+};
+
+// Another Example Album
+var albumMarconi = {
+    title: 'The Telephone',
+    artist: 'Guglielmo Marconi',
+    label: 'EM',
+    year: '1909',
+    albumArtUrl: 'assets/images/album_covers/20.png',
+    songs: [
+        {
+            title: 'Hello, Operator?',
+            duration: '1:01'
+        },
+        {
+            title: 'Ring, ring, ring',
+            duration: '5:01'
+        },
+        {
+            title: 'Fits in your pocket',
+            duration: '3:21'
+        },
+        {
+            title: 'Can you hear me now?',
+            duration: '3:14'
+        },
+        {
+            title: 'Wrong phone number',
+            duration: '2:15'
+        }
+     ]
+};
+
+// Yet Another Example Album
+var albumDesmond = {
+    title: 'My Favorite Things',
+    artist: 'Seal Desmond',
+    label: 'Private Label',
+    year: '2008',
+    albumArtUrl: 'assets/images/album_covers/06.png',
+    songs: [
+        {
+            title: 'My Headphones',
+            duration: '2:30'
+        },
+        {
+            title: 'Jazz In The Dark',
+            duration: '8:25'
+        },
+        {
+            title: 'Price Me Up',
+            duration: '1:45'
+        },
+        {
+            title: 'Look At Me Now',
+            duration: '4:44'
+        },
+        {
+            title: 'This Is My House',
+            duration: '3:38'
+        }
+     ]
+};

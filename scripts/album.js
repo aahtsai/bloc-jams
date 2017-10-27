@@ -26,7 +26,7 @@ var createSongRow = function (songNumber, songName, songLength) {
             // Switch from Play -> Pause button to indicate new song is playing.
             $(this).html(pauseButtonTemplate);
             setSong(songNumber);
-            setSong(currentAlbum.songs[songNumber - 1]);
+            currentlyPlayingSongNumber(currentAlbum.songs[songNumber - 1]);
             updatePlayerBarSong();
 
         } else if (currentlyPlayingSongNumber === songNumber) {
